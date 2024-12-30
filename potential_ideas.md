@@ -54,21 +54,15 @@
    #### **Challenges**
    Handling imbalanced classes as most reviews are either very positive or very negative.
    Managing domain-specific language (e.g., slang, regional terms).
-    
-   #### **Models**
-   **LSTM**: Analyze sequential dependencies in review text.
-   **GRU**: A lighter alternative for faster processing.
-   **Transformers**: Use pre-trained models like RoBERTa for nuanced understanding.
+  
     
    #### **Dataset Link**
    [Yelp Dataset](https://www.yelp.com/dataset)
         
-   ## Models we can use for this task 
-   LSTM
-   GRU
-   Transformers - can be pretrained e.g. roberta etc. (can be found in huggingface website)
-        
-   Model comparison
+   #### **Models**
+   **LSTM**: Analyze sequential dependencies in review text.
+   **GRU**: A lighter alternative for faster processing.
+   **Transformers**: Use pre-trained models like RoBERTa for nuanced understanding.
     
 
 # **3. Medical Image Classification (CNN and Transformers)**
