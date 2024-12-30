@@ -33,17 +33,17 @@
     
 # 2. Sentiment Analysis Example (or another more NLP based task)
     
-    ### **Datasets options**
+ ### **Datasets options**
     
-    - **e.g. IMDb Movie Reviews**:
+   ### IMDb Movie Reviews**:
         - **Content**: The dataset consists of 50,000 movie reviews labeled as positive or negative. The data is evenly split into training and testing sets, with 25,000 reviews each.
         - **Challenges**: Sentences vary in length, structure, and complexity, presenting challenges for sequential models like RNNs and Transformers.
         - [Link to Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)
 
         
-    ### **Yelp Reviews Dataset**
+   ### **Yelp Reviews Dataset**
 
-    #### **Content**
+   #### **Content**
     The Yelp Reviews Dataset contains text reviews and metadata from Yelp, including ratings on a scale of 1 to 5 stars.
     
     - **Features**:
@@ -51,19 +51,19 @@
       - Ratings (1–5 stars).
       - Metadata: business category, location, and review time.
     
-    #### **Challenges**
+   #### **Challenges**
     - Handling imbalanced classes as most reviews are either very positive or very negative.
     - Managing domain-specific language (e.g., slang, regional terms).
     
-    #### **Models**
+   #### **Models**
     - **LSTM**: Analyze sequential dependencies in review text.
     - **GRU**: A lighter alternative for faster processing.
     - **Transformers**: Use pre-trained models like RoBERTa for nuanced understanding.
     
-    #### **Dataset Link**
+   #### **Dataset Link**
     [Yelp Dataset](https://www.yelp.com/dataset)
         
-        ## Models we can use 
+   ## Models we can use for this task 
         
         - LSTM
         - GRU
