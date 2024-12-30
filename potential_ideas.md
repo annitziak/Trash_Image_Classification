@@ -1,7 +1,7 @@
 # 1.Predicting Waste Through Image Recognition
 
 ### TrashNet Dataset Overview
-[Trashnet] (https://universe.roboflow.com/polygence-project/trashnet-a-set-of-annotated-images-of-trash-that-can-be-used-for-object-detection/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true TrashNet Dataset)
+[Trashnet] (https://universe.roboflow.com/polygence-project/trashnet-a-set-of-annotated-images-of-trash-that-can-be-used-for-object-detection/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 
 - **Content**: The dataset comprises 2,527 images categorized into six classes: cardboard, glass, metal, paper, plastic, and trash.
 - Previous work includes:
