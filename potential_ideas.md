@@ -36,9 +36,9 @@
  ### **Datasets options**
     
    ### IMDb Movie Reviews**:
-        - **Content**: The dataset consists of 50,000 movie reviews labeled as positive or negative. The data is evenly split into training and testing sets, with 25,000 reviews each.
-        - **Challenges**: Sentences vary in length, structure, and complexity, presenting challenges for sequential models like RNNs and Transformers.
-        - [Link to Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)
+   - **Content**: The dataset consists of 50,000 movie reviews labeled as positive or negative. The data is evenly split into training and testing sets, with 25,000 reviews each.
+ - **Challenges**: Sentences vary in length, structure, and complexity, presenting challenges for sequential models like RNNs and Transformers
+- [Link to Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)
 
         
    ### **Yelp Reviews Dataset**
