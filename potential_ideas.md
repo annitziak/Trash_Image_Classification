@@ -44,32 +44,31 @@
    ### **Yelp Reviews Dataset**
 
    #### **Content**
-    The Yelp Reviews Dataset contains text reviews and metadata from Yelp, including ratings on a scale of 1 to 5 stars.
+   The Yelp Reviews Dataset contains text reviews and metadata from Yelp, including ratings on a scale of 1 to 5 stars.
     
-    - **Features**:
-      - Text reviews for businesses across various categories (restaurants, shops, services).
-      - Ratings (1–5 stars).
-      - Metadata: business category, location, and review time.
+   - **Features**:
+   - Text reviews for businesses across various categories (restaurants, shops, services).
+   - Ratings (1–5 stars)
+   - Metadata: business category, location, and review time.
     
    #### **Challenges**
-    - Handling imbalanced classes as most reviews are either very positive or very negative.
-    - Managing domain-specific language (e.g., slang, regional terms).
+   Handling imbalanced classes as most reviews are either very positive or very negative.
+   Managing domain-specific language (e.g., slang, regional terms).
     
    #### **Models**
-    - **LSTM**: Analyze sequential dependencies in review text.
-    - **GRU**: A lighter alternative for faster processing.
-    - **Transformers**: Use pre-trained models like RoBERTa for nuanced understanding.
+   **LSTM**: Analyze sequential dependencies in review text.
+   **GRU**: A lighter alternative for faster processing.
+   **Transformers**: Use pre-trained models like RoBERTa for nuanced understanding.
     
    #### **Dataset Link**
-    [Yelp Dataset](https://www.yelp.com/dataset)
+   [Yelp Dataset](https://www.yelp.com/dataset)
         
    ## Models we can use for this task 
+   LSTM
+   GRU
+   Transformers - can be pretrained e.g. roberta etc. (can be found in huggingface website)
         
-        - LSTM
-        - GRU
-        - Transformers - can be pretrained e.g. roberta etc. (can be found in huggingface website)
-        
-        Model comparison
+   Model comparison
     
 
 # **3. Medical Image Classification (CNN and Transformers)**
