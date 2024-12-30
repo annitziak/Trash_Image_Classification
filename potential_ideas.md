@@ -1,7 +1,7 @@
 # 1.Predicting Waste Through Image Recognition
 
 ### TrashNet Dataset Overview
-[Trashnet] (https://universe.roboflow.com/polygence-project/trashnet-a-set-of-annotated-images-of-trash-that-can-be-used-for-object-detection/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
+[Trashnet](https://universe.roboflow.com/polygence-project/trashnet-a-set-of-annotated-images-of-trash-that-can-be-used-for-object-detection/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 
 - **Content**: The dataset comprises 2,527 images categorized into six classes: cardboard, glass, metal, paper, plastic, and trash.
 - Previous work includes:
@@ -27,17 +27,13 @@
     
     [MDPI](https://www.mdpi.com/2071-1050/14/12/7222?utm_source=chatgpt.com)
     
-- **Multi-Label Classification**: Recent efforts have addressed the complexity of real-world waste, where images may contain multiple waste types. A Vision Transformer-based model achieved an accuracy exceeding 92.36% on a municipal waste dataset containing images with up to four waste categories.
-    
-    [MDPI](https://www.mdpi.com/2227-9717/12/6/1075?utm_source=chatgpt.com)
-    
-    ## Literature Gap
+    ## Potential Literature Gap
     
     **Multi-Label Classification Challenges**: Although progress has been made, accurately classifying images containing multiple waste items is still complex. Developing models that can effectively handle overlapping objects and varying spatial arrangements is an ongoing research area.
     
-# 2. Sentiment Analysis Example
+# 2. Sentiment Analysis Example (or another more NLP based task)
     
-    ### **Dataset**
+    ### **Datasets options**
     
     - **e.g. IMDb Movie Reviews**:
         - **Content**: The dataset consists of 50,000 movie reviews labeled as positive or negative. The data is evenly split into training and testing sets, with 25,000 reviews each.
@@ -45,7 +41,7 @@
         - [Link to Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)
 
         
-    ### **1. Yelp Reviews Dataset**
+    ### **Yelp Reviews Dataset**
 
     #### **Content**
     The Yelp Reviews Dataset contains text reviews and metadata from Yelp, including ratings on a scale of 1 to 5 stars.
@@ -66,45 +62,21 @@
     
     #### **Dataset Link**
     [Yelp Dataset](https://www.yelp.com/dataset)
-    
-    ---
-    
-    ### **2. Airline Sentiment Dataset**
-    
-    #### **Content**
-    This dataset includes tweets about major U.S. airlines labeled with sentiments (positive, neutral, negative).
-    
-    - **Features**:
-      - Short textual data in the form of tweets.
-      - Sentiment labels (positive, neutral, negative).
-      - Metadata: tweet timestamp, airline name, and reason for sentiment.
-    
-    #### **Challenges**
-    - Imbalanced classes (e.g., more negative than positive tweets).
-    - Short text sequences with abbreviations and hashtags.
-    
-    #### **Models**
-    - **LSTM**: Captures sequential dependencies in tweets.
-    - **GRU**: Efficient for short sequences.
-    - **Transformers**: Fine-tune BERT or DistilBERT for text classification.
-    
-    #### **Dataset Link**
-    [Airline Sentiment Dataset](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)
         
-        ## Model
+        ## Models we can use 
         
         - LSTM
         - GRU
-        - Transformers - can be pretrained e.g. roberta etc. (huggingface website)
+        - Transformers - can be pretrained e.g. roberta etc. (can be found in huggingface website)
         
         Model comparison
     
 
 # **3. Medical Image Classification (CNN and Transformers)**
 
-- **Dataset**: ChestX-ray8  / also look at kaggle -> lots of them
-- **Task**: Detect lung diseases from chest X-ray images.
-- **Baseline Method**: Use a pre-trained CNN (e.g., ResNet or EfficientNet).
+- **Dataset**: ChestX-ray8, Brain tumor multimodal image  / also look at kaggle for many datasets
+- **Task**: Detect lung diseases from chest X-ray images / other diseases
+- **Baseline Method**: Use CNN (e.g., ResNet or EfficientNet) etc. 
 - **Improvement Strategies**:
     - Introduce Transformer-based models like Vision Transformers (ViT) for better global feature representation.
     - Explore data augmentation techniques such as rotation and contrast adjustment.
