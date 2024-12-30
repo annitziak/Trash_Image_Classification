@@ -5,7 +5,7 @@
 
 - **Content**: The dataset comprises 2,527 images categorized into six classes: cardboard, glass, metal, paper, plastic, and trash.
 - Previous work includes:
-- **Paper I found** : [paper link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8622212&casa_token=67bYCD9q77QAAAAA:idYnIuUdfB39YvdD9sBDVXgq--29d6_rjPE5pRjrUnCYyElVkYsR1HFZE200NRmXMDT6YbrE&tag=1)
+- **Paper I found** : [paper link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8622212&casa_token=67bYCD9q77QAAAAA:idYnIuUdfB39YvdD9sBDVXgq--29d6_rjPE5pRjrUnCYyElVkYsR1HFZE200NRmXMDT6YbrE&tag=1) <br>
   **Convolutional Neural Networks (CNNs)**:
     - *AlexNet*: Modifying the AlexNet architecture, one study achieved a test accuracy of approximately 79.94% when combined with an SVM classifier.
         
