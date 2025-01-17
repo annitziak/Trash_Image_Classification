@@ -17,4 +17,17 @@ Ideas
 Potentially:
 Multi-Label Classification Challenges
 
+# DATASETS
+## TACO Dataset
+- **Purpose:** Detecting litter in natural and urban environments.
+- **Image Content:** Complex scenes with multiple, often **overlapping** items and ** more real-world examples**
+- **Annotations:** Includes bounding boxes and masks for object detection and segmentation.
+- **Use Cases:** Suitable for real-world applications requiring precise item localization, such as autonomous cleaning robots and environmental monitoring.
+- **Dataset Size and Diversity:** Large and varied, representing diverse trash types and environmental conditions.
 
+## TrashNet Dataset
+- **Purpose:** Classifying types of trash for recycling automation.
+- **Image Content:** Simpler, isolated items photographed against a** plain background.** <- easier
+- **Annotations:** Class labels for basic material types (e.g., glass, paper, plastic).
+- **Use Cases:** Ideal for classification tasks in controlled environments, such as sorting facilities.
+- **Dataset Size and Composition:** Smaller and less complex, focusing on basic classification without localization.
