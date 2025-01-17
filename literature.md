@@ -16,3 +16,10 @@
   year={2019},
   publisher={IEEE}
 }
+<br>
+@article{proencca2003taco,
+  title={Taco: Trash annotations in context for litter detection. arXiv 2020},
+  author={Proen{\c{c}}a, PF and Sim{\~o}es, P},
+  journal={arXiv preprint arXiv:2003.06975},
+  year={2003}
+}
