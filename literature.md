@@ -6,3 +6,13 @@
   year={2018},
   organization={IEEE}
 }
+<br>
+@article{vo2019novel,
+  title={A novel framework for trash classification using deep transfer learning},
+  author={Vo, Anh H and Vo, Minh Thanh and Le, Tuong and others},
+  journal={IEEE Access},
+  volume={7},
+  pages={178631--178639},
+  year={2019},
+  publisher={IEEE}
+}
