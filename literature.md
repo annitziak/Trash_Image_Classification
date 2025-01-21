@@ -62,3 +62,15 @@
   year={2022},
   publisher={Elsevier}
 }
+
+@inproceedings{TharaniArxiv2020,
+   author   = "Mohbat Tharani and
+               Abdul Wahab Amin and
+               Fezan Rasool and 
+               Muhammad Maaz and 
+               Murtaza Taj",
+               Abubakr Muhammmad
+   title     = "Trash Detection on Water Channels",    
+   booktitle = "ICONIP",    
+   month = "Dec",
+   year = "2021", }
