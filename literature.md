@@ -8,6 +8,7 @@
 }
 
 <br>
+
 @article{vo2019novel,
   title={A novel framework for trash classification using deep transfer learning},
   author={Vo, Anh H and Vo, Minh Thanh and Le, Tuong and others},
