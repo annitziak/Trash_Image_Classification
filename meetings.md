@@ -37,4 +37,5 @@ Multi-Label Classification Challenges
 2. data augmentation + images → white background, noisy etc. ANNIE 
 3. semi supervised VASILIS
 4. multi object detection* → difficult
+5. comparison taco/trashnet?
 
