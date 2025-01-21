@@ -74,3 +74,16 @@
    booktitle = "ICONIP",    
    month = "Dec",
    year = "2021", }
+
+  --giannis vidias
+
+  @article{garbage_detection_2021,
+  author    = {S. S. Rautaray and S. Agrawal},
+  title     = {Garbage Detection Using Advanced Object Detection Techniques},
+  journal   = {Proceedings of the International Conference on Signal Processing and Communication Engineering Systems (SPACES)},
+  year      = {2021},
+  pages     = {1--5},
+  publisher = {IEEE},
+  doi       = {10.1109/SPACES.2021.9395916},
+  url       = {https://ieeexplore.ieee.org/document/9395916}
+  }
