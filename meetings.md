@@ -33,6 +33,8 @@ Multi-Label Classification Challenges
 - **Dataset Size and Composition:** Smaller and less complex, focusing on basic classification without localization.
 
 ## 21/01/2025
-  1. Different dataset for benchmarking
-  2. Multi label classification
+1. feature based eg. texture, shape, color, reflectness, transparency etc → compare with a neural GIANNIS 
+2. data augmentation + images → white background, noisy etc. ANNIE 
+3. semi supervised VASILIS
+4. multi object detection* → difficult
 
