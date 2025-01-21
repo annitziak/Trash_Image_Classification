@@ -31,3 +31,8 @@ Multi-Label Classification Challenges
 - **Annotations:** Class labels for basic material types (e.g., glass, paper, plastic).
 - **Use Cases:** Ideal for classification tasks in controlled environments, such as sorting facilities.
 - **Dataset Size and Composition:** Smaller and less complex, focusing on basic classification without localization.
+
+## 21/01/2025
+  1. Different dataset for benchmarking
+  2. Multi label classification
+
