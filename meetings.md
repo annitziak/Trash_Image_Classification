@@ -39,3 +39,7 @@ Multi-Label Classification Challenges
 4. multi object detection* → difficult
 5. comparison taco/trashnet?
 
+##### Data Augmentation
+Translation, Rotations, Intensity coloring using PCA, color shift, noise, flipping
+!["Techniques used"](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*7XiKkSu6lT98NXQitQ-5MA.png)
+from paper "A Comprehensive Survey of Image Augmentation Techniques for Deep Learning"
