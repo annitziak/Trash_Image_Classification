@@ -68,4 +68,8 @@ detection accuracy
 In future research, the
 emphasis will be on complex backgrounds and special situations in waste image detection
 to make it applicable to a wider range of classification scenarios.
- 
+
+other studies have used transformers e.g. vit
+
+Data Augmentation using LLMs:
+Data Perspectives, Learning Paradigms and Challenges
