@@ -1,4 +1,4 @@
-### Proposal
+### Proposal Annie
 
 **Problem Statement:**
 Waste classification has achieved high performance with some architectures, but dataset variation remains a significant challenge (most papers say this). 
@@ -15,3 +15,5 @@ We hypothesize that advanced data augmentation techniques will improve model per
 **Objective:**
 Evaluate the impact of various augmentation methods on classification accuracy, and generalization in waste classification.
 
+### Proposal Vasilis
+### Proposal Giannis
