@@ -39,3 +39,8 @@ Multi-Label Classification Challenges
 4. multi object detection* → difficult
 5. comparison taco/trashnet?
 
+   ## 27/01/2025
+   Annie : code geometric transformations
+   Vasilis : dataset + benchmarks on trashnet
+   Giannis : new data techniques 
+
