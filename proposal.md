@@ -15,6 +15,8 @@ We hypothesize that advanced data augmentation techniques will improve model per
 **Objective:**
 Evaluate the impact of various augmentation methods on classification accuracy, and generalization in waste classification.
 
+*** libraries you can use ***
+from imgaug 
 
 ### Proposal Vasilis
 
