@@ -14,7 +14,7 @@ https://www.notion.so/Machine-Learning-Practical-1889f99a47b6801c8a6cc4bfd2c73ca
 |--------------|----------|-----------|--------|----------|----------|----------|
 |trained_realwaste_baseline_densenet      | 84%    | 86%     | 85%  | 87%    | 82%  | 83%    |
 |trained_realwaste_augmentation_version_02_val_densenet      | 79%    | 79%     | 82%  | 82%    | 77% | 76% |
-| Model C      | %    | %     | %  | %    |
+| trained_trashnet_densenet|	38%|	30%|	60%|	54%|	59%|	6%|
 
 
 ### Trashnet F1-score:
@@ -22,4 +22,4 @@ https://www.notion.so/Machine-Learning-Practical-1889f99a47b6801c8a6cc4bfd2c73ca
 |--------------|----------|-----------|--------|----------|----------|----------|
 |trained_realwaste_baseline_densenet      | 39%    | 41%     | 52%  | 58%    | 32% | 1% |
 |trained_realwaste_augmentation_version_02_val_densenet      | 54%    | 56%     | 63%  | 67%    | 23% | 5% |
-| Model C      | %    | %     | %  | %    |
+| trained_trashnet_densenet|	41%|	34%|	59%|	51%|	52%|	9%|
