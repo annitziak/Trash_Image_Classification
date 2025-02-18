@@ -12,8 +12,8 @@ https://www.notion.so/Machine-Learning-Practical-1889f99a47b6801c8a6cc4bfd2c73ca
 ### RealWaste F1-score:
 | Model         | Cardboard | Glass | Metal | Paper | Plastic | Trash | 
 |--------------|----------|-----------|--------|----------|----------|----------|
-|trained_realwaste_baseline_densenet      | %    | %     | %  | %    |
-|trained_realwaste_augmentation_version_02_val_densenet      | %    | %     | %  | %    | % | % |
+|trained_realwaste_baseline_densenet      | 84%    | 86%     | 85%  | 87%    | 82%  | 83%    |
+|trained_realwaste_augmentation_version_02_val_densenet      | 79%    | 79%     | 82%  | 82%    | 77% | 76% |
 | Model C      | %    | %     | %  | %    |
 
 
