@@ -20,7 +20,7 @@ https://www.notion.so/Machine-Learning-Practical-1889f99a47b6801c8a6cc4bfd2c73ca
 
 
 ### Trashnet F1-score:
-| Model         | Cardboard | Glass | Metal | Paper | Plastic | Trash | Total Accuracy
+| Model         | Cardboard | Glass | Metal | Paper | Plastic | Trash | Weighted Avg
 |--------------|----------|-----------|--------|----------|----------|----------|----------|
 |trained_realwaste_baseline_densenet|	39%|	41%|	52%|	58%|	32%|	1%| 43%|
 |trained_realwaste_augmentation_version_02_val_densenet|	54%|	56%|	63%|	67%|	23%|	5%| 53%|
