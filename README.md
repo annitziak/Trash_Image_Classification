@@ -25,5 +25,6 @@ https://www.notion.so/Machine-Learning-Practical-1889f99a47b6801c8a6cc4bfd2c73ca
 |trained_realwaste_baseline_densenet|	39%|	41%|	52%|	58%|	32%|	1%| 43%|
 |trained_realwaste_augmentation_version_02_val_densenet|	54%|	56%|	63%|	67%|	23%|	5%| 53%|
 |trained_realwaste_erasing05_models_val_densenet|	49%|	59%|	58%|	57%|	45%|	6%| 52%|
+|trained_realwaste_difussion|	69%|	65%|	71%|	75%|	56%|	9%| 66%|
 |Previous versions:|	|	|	|	|	|	| |
 |trained_realwaste_erasing_version_03_val_densenet|	51%|	44%|	57%|	55%|	45%|	5%| 48%|
