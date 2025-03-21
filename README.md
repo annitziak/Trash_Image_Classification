@@ -16,6 +16,7 @@ https://www.notion.so/Machine-Learning-Practical-1889f99a47b6801c8a6cc4bfd2c73ca
 |trained_realwaste_augmentation_version_02_val_densenet|	73%|	75%|	77%|	74%|	71%|	69%| 72%|
 |trained_realwaste_erasing05_models_val_densenet|	77%|	78%|	81%|	78%|	73%|	81%| 77%|
 |trained_diffusion_model1_val_densenet|	74%|	85%|	79%|	73%|	71%|	66%| 75%|
+|trained_combined_modell_val_densenet|	76%|	84%|	78%|	78%|	76%|	73%| 77%|
 |Previous versions:|	|	|	|	|	|	| |
 |trained_realwaste_erasing_version_03_val_densenet|	76%|	76%|	77%|	72%|	67%|	69%| 72%|
 
@@ -27,5 +28,6 @@ https://www.notion.so/Machine-Learning-Practical-1889f99a47b6801c8a6cc4bfd2c73ca
 |trained_realwaste_augmentation_version_02_val_densenet|	54%|	56%|	63%|	67%|	23%|	5%| 53%|
 |trained_realwaste_erasing05_models_val_densenet|	49%|	59%|	58%|	57%|	45%|	6%| 52%|
 |trained_diffusion_model1_val_densenet|	69%|	65%|	71%|	75%|	56%|	9%| 66%|
+|trained_combined_modell_val_densenet|	64%|	67%|	70%|	74%|	50%|	11%| 64%|
 |Previous versions:|	|	|	|	|	|	| |
 |trained_realwaste_erasing_version_03_val_densenet|	51%|	44%|	57%|	55%|	45%|	5%| 48%|
