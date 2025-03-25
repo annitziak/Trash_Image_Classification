@@ -1,11 +1,16 @@
-# mlp_assignment
+# Effective Waste Classification through Data Augmentation
 
-Update `proposal.md`
+## Overview
+This repository contains the implementation of our work titled "Effective Waste Classification through Data Augmentation," which explores the impact of various Data Augmentation (DA) techniques, including Image Manipulation, Image Erasing, and Diffusion Models on waste classification. We utilize DenseNet-121 to analyze performance improvements, generalization, image fidelity, and computational costs. Our study introduces a structured framework for hyperparameter tuning of DA methods and provides insights into the strategic selection of DA techniques based on their inherent trade-offs.
 
-https://www.notion.so/Machine-Learning-Practical-1889f99a47b6801c8a6cc4bfd2c73cac?pvs=4  <br>
-`new template` : https://www.overleaf.com/8581932666vtycckjvtkgy#5487f5 <br>
+## Key Findings
+- **Enhanced Model Performance**: Our adaptive framework significantly improves model performance through balanced augmentation approaches.
+- **State-of-the-Art Techniques**: Diffusion models, which are currently state-of-the-art, substantially enhance performance and generalization, despite their higher computational cost.
+- **Trade-offs in Data Augmentation**: We discuss the trade-offs between different DA techniques, particularly focusing on the balance between performance enhancement and computational expenses.
+- **Generalization Across Datasets**: The study highlights the importance of considering generalization to different datasets when evaluating augmentation methods.
+- **Iterative pipeline for Data Augmentation**: We present a framework of iterating through multiple cycles of generation, evaluation through quantitative metrics such as KL divergence and adjustment,  to refine the augmentation strategy leading to a more effective and adaptable dataset for downstream tasks.
 
-`old`:https://www.overleaf.com/9113767633wtpbydgfbdxr#6c98a0
+
 
 ## Results
 
