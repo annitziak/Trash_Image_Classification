@@ -14,25 +14,56 @@ This repository contains the implementation of our work titled "Effective Waste 
 
 ## Results
 
-### RealWaste F1-score:
-| Model         | Cardboard | Glass | Metal | Paper | Plastic | Trash | Weighted Avg
-|--------------|----------|-----------|--------|----------|----------|----------|----------|
-|trained_realwaste_baseline_densenet |	79%|	86%|	83%|	79%|	82%|	80%|81%|
-|trained_realwaste_augmentation_version_02_val_densenet|	73%|	75%|	77%|	74%|	71%|	69%| 72%|
-|trained_realwaste_erasing05_models_val_densenet|	77%|	78%|	81%|	78%|	73%|	81%| 77%|
-|trained_diffusion_model1_val_densenet|	74%|	85%|	79%|	73%|	71%|	66%| 75%|
-|trained_combined_modell_val_densenet|	76%|	84%|	78%|	78%|	76%|	73%| 77%|
-|Previous versions:|	|	|	|	|	|	| |
-|trained_realwaste_erasing_version_03_val_densenet|	76%|	76%|	77%|	72%|	67%|	69%| 72%|
+
+### Table 2: Weighted F1 Scores
+| DA Technique            | RealWaste | TrashNet |
+|-------------------------|-----------|----------|
+| DenseNet-121 (DN)       | 81%       | 42%      |
+| DN + Image Manipulation | 72%       | 53%      |
+| DN + Image Erasing      | 77%       | 52%      |
+| DN + Diffusion Models   | 75%       | 66%      |
+| DN + Combined DA        | 75%       | 63%      |
+
+### Table 3: Measures per Technique
+| DA Technique            | Creation    | Train | GG*  | LPIPS |
+|-------------------------|-------------|-------|------|-------|
+| Image Manipulation      | ~ minutes   | 2.3   | 19%  | 0.59  |
+| Image Erasing           | ~ minutes   | 2.5   | 15%  | 0.51  |
+| Diffusion Models        | ~ days      | 2.6   | 9%   | 0.55  |
+| Combined DA             | -           | 2.3   | 13%  | 0.60  |
+
+(Note: GG* stands for Generalization Gap)
+
+## Results
+
+### Table 4: F1 Scores in Realwaste per Category
+| DA Technique            | Cardboard | Glass | Metal | Paper | Plastic | Trash |
+|-------------------------|-----------|-------|-------|-------|---------|-------|
+| DenseNet-121 (DN)       | 79%       | 86%   | 83%   | 79%   | 82%     | 80%   |
+| DN + Image Manipulation | 73%       | 75%   | 77%   | 74%   | 71%     | 69%   |
+| DN + Image Erasing      | 77%       | 78%   | 81%   | 78%   | 73%     | 81%   |
+| DN + Diffusion Models   | 74%       | 85%   | 79%   | 73%   | 71%     | 66%   |
+| DN + Combined DA        | 75%       | 83%   | 78%   | 78%   | 72%     | 73%   |
 
 
-### Trashnet F1-score:
-| Model         | Cardboard | Glass | Metal | Paper | Plastic | Trash | Weighted Avg
-|--------------|----------|-----------|--------|----------|----------|----------|----------|
-|trained_realwaste_baseline_densenet|	39%|	41%|	52%|	58%|	32%|	1%| 43%|
-|trained_realwaste_augmentation_version_02_val_densenet|	54%|	56%|	63%|	67%|	23%|	5%| 53%|
-|trained_realwaste_erasing05_models_val_densenet|	49%|	59%|	58%|	57%|	45%|	6%| 52%|
-|trained_diffusion_model1_val_densenet|	69%|	65%|	71%|	75%|	56%|	9%| 66%|
-|trained_combined_modell_val_densenet|	64%|	67%|	70%|	74%|	50%|	11%| 64%|
-|Previous versions:|	|	|	|	|	|	| |
-|trained_realwaste_erasing_version_03_val_densenet|	51%|	44%|	57%|	55%|	45%|	5%| 48%|
+
+### Table 5: F1 Scores in TrashNet per Category
+| DA Technique            | Cardboard | Glass | Metal | Paper | Plastic | Trash |
+|-------------------------|-----------|-------|-------|-------|---------|-------|
+| DenseNet-121 (DN)       | 45%       | 50%   | 60%   | 55%   | 40%     | 3%    |
+| DN + Image Manipulation | 60%       | 65%   | 70%   | 72%   | 30%     | 7%    |
+| DN + Image Erasing      | 52%       | 62%   | 66%   | 61%   | 48%     | 9%    |
+| DN + Diffusion Models   | 69%       | 65%   | 71%   | 75%   | 56%     | 9%    |
+| DN + Combined DA        | 63%       | 65%   | 70%   | 72%   | 50%     | 11%   |
+
+This table details the F1 scores for each data augmentation technique across various material categories within the TrashNet dataset, illustrating the differential impact on classification performance.
+
+### Example of previous pipelines without Iterative Pipeline (Test Set)
+
+| DA Technique            | Cardboard | Glass | Metal | Paper | Plastic | Trash | Overall |
+|-------------------------   |-----------|-------|-------|-------|---------|-------|------|
+| DN + Image Manipulation(1) | 32%       | 45%   | 59%   | 51%   | 24%     | 2%    | 38%  |
+| DN + Image Erasing(1)      | 44%       | 36%   | 56%   | 61%   | 48%     | 9%    | 47%  |
+| DN + Image Erasing(2)      | 51%       | 44%   | 57%   | 55%   | 45%     | 5%    | 48%  |
+
+
