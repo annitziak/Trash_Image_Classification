@@ -15,8 +15,8 @@ This repository contains the implementation of our work titled "Effective Waste 
 ## Results
 
 
-### Table 2: Weighted F1 Scores
-| DA Technique            | RealWaste | TrashNet |
+### Overall results acorss pipelines
+| DA Technique            | RealWaste(Val) | TrashNet(Test) |
 |-------------------------|-----------|----------|
 | DenseNet-121 (DN)       | 81%       | 42%      |
 | DN + Image Manipulation | 72%       | 53%      |
@@ -24,7 +24,7 @@ This repository contains the implementation of our work titled "Effective Waste 
 | DN + Diffusion Models   | 75%       | 66%      |
 | DN + Combined DA        | 75%       | 63%      |
 
-### Table 3: Measures per Technique
+### Metrics per Technique
 | DA Technique            | Creation    | Train | GG*  | LPIPS |
 |-------------------------|-------------|-------|------|-------|
 | Image Manipulation      | ~ minutes   | 2.3   | 19%  | 0.59  |
@@ -32,9 +32,9 @@ This repository contains the implementation of our work titled "Effective Waste 
 | Diffusion Models        | ~ days      | 2.6   | 9%   | 0.55  |
 | Combined DA             | -           | 2.3   | 13%  | 0.60  |
 
-(Note: GG* stands for Generalization Gap)
+(Note: GG* stands for Generalization Gap and Train is the ratio of the total training time between the baseline model and the current model)
 
-## Results
+![comp](data/images/comparison.png)
 
 ### Table 4: F1 Scores in Realwaste per Category
 | DA Technique            | Cardboard | Glass | Metal | Paper | Plastic | Trash |
@@ -57,6 +57,9 @@ This repository contains the implementation of our work titled "Effective Waste 
 | DN + Combined DA        | 63%       | 65%   | 70%   | 72%   | 50%     | 11%   |
 
 This table details the F1 scores for each data augmentation technique across various material categories within the TrashNet dataset, illustrating the differential impact on classification performance.
+
+### The iterative pipeline
+![comp](data/images/Image Generation (1).png)
 
 ### Example of previous pipelines without Iterative Pipeline (Test Set)
 
