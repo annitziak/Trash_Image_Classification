@@ -58,7 +58,8 @@ This repository contains the implementation of our work titled "Effective Waste 
 
 
 ### The iterative pipeline
-![comp](data/images/Image Generation(1).png)
+![comp](data/images/Image Generation (1).png)
+
 
 #### Example of previous pipelines without Iterative Pipeline (Test Set)
 As can be seen the iterative pipeline framework showed increased performance and can provide a further framework to apply in all Data Augmentation tasks.
