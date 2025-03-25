@@ -36,7 +36,7 @@ This repository contains the implementation of our work titled "Effective Waste 
 
 ![comp](data/images/comparison.png)
 
-### Table 4: F1 Scores in Realwaste per Category
+### Table 4: F1 Scores in Realwaste[Validation] per Category
 | DA Technique            | Cardboard | Glass | Metal | Paper | Plastic | Trash |
 |-------------------------|-----------|-------|-------|-------|---------|-------|
 | DenseNet-121 (DN)       | 79%       | 86%   | 83%   | 79%   | 82%     | 80%   |
@@ -47,7 +47,7 @@ This repository contains the implementation of our work titled "Effective Waste 
 
 
 
-### Table 5: F1 Scores in TrashNet per Category
+### Table 5: F1 Scores in TrashNet[Test] per Category
 | DA Technique            | Cardboard | Glass | Metal | Paper | Plastic | Trash |
 |-------------------------|-----------|-------|-------|-------|---------|-------|
 | DenseNet-121 (DN)       | 45%       | 50%   | 60%   | 55%   | 40%     | 3%    |
@@ -56,12 +56,12 @@ This repository contains the implementation of our work titled "Effective Waste 
 | DN + Diffusion Models   | 69%       | 65%   | 71%   | 75%   | 56%     | 9%    |
 | DN + Combined DA        | 63%       | 65%   | 70%   | 72%   | 50%     | 11%   |
 
-This table details the F1 scores for each data augmentation technique across various material categories within the TrashNet dataset, illustrating the differential impact on classification performance.
 
 ### The iterative pipeline
 ![comp](data/images/Image Generation (1).png)
 
-### Example of previous pipelines without Iterative Pipeline (Test Set)
+#### Example of previous pipelines without Iterative Pipeline (Test Set)
+As can be seen the iterative pipeline framework showed increased performance and can provide a further framework to apply in all Data Augmentation tasks.
 
 | DA Technique            | Cardboard | Glass | Metal | Paper | Plastic | Trash | Overall |
 |-------------------------   |-----------|-------|-------|-------|---------|-------|------|
