@@ -58,7 +58,7 @@ This repository contains the implementation of our work titled "Effective Waste 
 
 
 ### The iterative pipeline
-![comp](data/images/Image Generation (1).png)
+![comp](data/images/ImageGeneration.png)
 
 
 #### Example of previous pipelines without Iterative Pipeline (Test Set)
