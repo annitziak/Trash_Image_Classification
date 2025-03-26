@@ -27,10 +27,10 @@ This repository contains the implementation of our work titled "Effective Waste 
 ### Metrics per Technique
 | DA Technique            | Creation    | Train | GG*  | LPIPS |
 |-------------------------|-------------|-------|------|-------|
-| Image Manipulation      | ~ minutes   | 2.3   | 19%  | 0.59  |
+| Image Manipulation      | ~ minutes   | 2.3   | 19%  | 0.61  |
 | Image Erasing           | ~ minutes   | 2.5   | 15%  | 0.51  |
 | Diffusion Models        | ~ days      | 2.6   | 9%   | 0.55  |
-| Combined DA             | -           | 2.3   | 13%  | 0.60  |
+| Combined DA             | -           | 2.3   | 13%  | 0.57  |
 
 (Note: GG* stands for Generalization Gap and Train is the ratio of the total training time between the baseline model and the current model)
 
